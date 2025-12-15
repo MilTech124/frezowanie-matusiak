@@ -40,17 +40,5 @@ export const project = {
                 { type: 'file', title: 'Wideo', options: { accept: 'video/*' } }
             ]
         },
-        {
-            name: 'video',
-            title: 'Wideo z realizacji',
-            type: 'file',
-            description: 'Prześlij plik wideo (mp4)'
-        },
-        {
-            name: 'description',
-            title: 'Opis procesu',
-            type: 'array',
-            of: [{ type: 'block' }]
-        },
     ],
 }
