@@ -101,8 +101,19 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="border-t border-white/5 pt-8 text-center text-gray-500 text-xs">
-                    © {new Date().getFullYear()} Frezowanie Podłóg. Wszelkie prawa zastrzeżone.
+                <div className="border-t border-white/5 pt-8 text-center text-gray-500 text-xs space-y-2">
+                    <div>© {new Date().getFullYear()} Frezowanie Podłóg. Wszelkie prawa zastrzeżone.</div>
+                    <div>
+                        Realizacja:{' '}
+                        <a
+                            href="https://www.brutecode.pl"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white hover:text-[#44AF33] transition-colors"
+                        >
+                            BruteCode
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
